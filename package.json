@@ -1,0 +1,21 @@
+{
+  "name": "study-elivros-app",
+  "version": "1.0.0",
+  "description": "Este repositório contém o código-fonte e os recursos para o projeto \"eLivros\", uma plataforma virtual de biblioteca desenvolvida como parte de um estudo no campo do desenvolvimento web. Explore, empreste e compartilhe livros de forma interativa.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  },
+  "author": "rodrigomaike",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.2"
+  }
+}
